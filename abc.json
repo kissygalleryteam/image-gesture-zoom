@@ -1,0 +1,14 @@
+{
+    "name": "image-gesture-zoom",
+    "version": "1.0",
+    "desc": "zoom image by touch gesture",
+    "cover": "",
+    "tag":"image zoomer gesture touch",
+    "author": {
+        "name": "yiminghe",
+        "email": "yiminghe@gmail.com",
+        "page": ""
+    },
+    "type": "kissy-gallery",
+    "type-url": "http://gallery.kissyui.com/guide"
+}
