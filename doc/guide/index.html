@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>image-gesture-zoom</title>
+    <link rel="stylesheet" href="http://cdn.staticfile.org/twitter-bootstrap/3.1.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://docs.kissyui.com/1.4/source/guideline/templates/assets/com-prettify.css">
+    <link rel="stylesheet" href="http://docs.kissyui.com/1.4/source/guideline/templates/assets/com.css">
+    <script src="http://cdn.staticfile.org/jquery/2.1.1-rc2/jquery.min.js"></script>
+    <script src="http://cdn.staticfile.org/twitter-bootstrap/3.1.1/js/bootstrap.min.js"></script>
+    <script src="http://cdn.staticfile.org/prettify/r298/prettify.min.js"></script>
+    <script src="http://g.tbcdn.cn/kissy/k/1.4.8/seed-min.js" data-config="{combine:true}"></script>
+  </head>
+  <body data-spy="scroll" data-target=".bs-docs-sidebar">
+    <div id="header"><a href="http://docs.kissyui.com/" class="logo">kissy</a>
+      <nav><a href="http://docs.kissyui.com/1.4/docs/html/coms.html">优秀组件推荐</a></nav>
+    </div>
+    <div class="container-fluid">
+      <div class="row-fluid">
+        <div class="span3 bs-docs-sidebar">
+          <ul data-spy="affix" data-offset-top="0" class="nav nav-list bs-docs-sidenav"></ul>
+        </div>
+        <div class="span9 bs-docs-content">
+          <h1 data-id="undefined" class="title">image-gesture-zoom</h1>
+          <p class="author-wrapper"><span>组件有问题？旺旺联系作者：</span><a href="https://github.com/undefined" target="_blank" data-name="yiminghe" class="author"><img src="http://0.gravatar.com/avatar/d226fdd4b353d92a66a1ef71539357f8?s=60" alt="yiminghe"></a><span class="author-name">yiminghe</span>
+          </p>
+          <div class="common-link"><a href="../demo/index.html" target="_blank" class="demo">示例</a><a href="https://github.com/kissygalleryteam/image-gesture-zoom" target="_blank" class="source">源码</a></div>
+          <p class="com-info"><span class="info-label">View</span><span data-com="image-gesture-zoom" class="J_View">458</span></p>
+          <p class="com-info"><span class="info-label">kissy版本</span><span>1.4.X</span>
+          </p><h2 id="-">图片触屏双指缩放</h2>
+<p>该组件可以弹出层模拟原生图片的全屏双指缩放功能</p>
+<h3 id="api">api</h3>
+<ul>
+<li>method showImage (config)<ul>
+<li>param {Object} config: 缩放图片配置<ul>
+<li>param {String} config.src: 大图地址</li>
+<li>param {Number} config.width 大图的最大放大宽度</li>
+<li>param {Number} config.height 大图的最大放大高度</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="example">example</h3>
+<pre><code class="lang-javascript">    KISSY.use(&#39;kg/image-gesture-zoom/2.0.0/&#39;,function(S, imageZoomer){
+        imageZoomer.showImage({
+            src: &#39;http://xx.com/big.jpg&#39;,
+            width: 1200,
+            height: 1200
+        });
+    });
+</code></pre>
+
+          <div style="display:none;"><script type="text/javascript" src="http://tajs.qq.com/stats?sId=36378479" charset="UTF-8"></script></div>
+          <script src="http://docs.kissyui.com/1.4/source/guideline/templates/assets/com.js"></script>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
